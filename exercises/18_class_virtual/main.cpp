@@ -57,7 +57,7 @@ int main(int argc, char **argv) {
 
     ASSERT(rab.virtual_name() == 'B', MSG);
     ASSERT(rbc.virtual_name() == 'C', MSG);
-    ASSERT(rcd.virtual_name() == 'D', MSG);
+    ASSERT(rcd.virtual_name() == 'C', MSG);
     ASSERT(rab.direct_name() == 'A', MSG);
     ASSERT(rbc.direct_name() == 'B', MSG);
     ASSERT(rcd.direct_name() == 'C', MSG);
